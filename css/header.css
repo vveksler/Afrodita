@@ -1,0 +1,11 @@
+.header {
+  position: relative;
+  background-color: #131415;
+  padding: 16px 0;
+  width: 100%;
+  color: white;
+}
+.logo {
+  float: left;
+  margin-top: 14px;
+}

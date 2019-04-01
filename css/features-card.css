@@ -1,0 +1,56 @@
+.features-card {
+  vertical-align: top;
+  display: inline-block;
+  width: 33.33%;
+}
+
+.features-card__content {
+  text-align: center;
+}
+
+.features-card__icon {
+  margin: auto;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f89513;
+  width: 70px;
+  height: 70px;
+}
+
+.features-card__icon_flower {
+  background-image: url(../images/main/icons/flower.png);
+}
+
+.features-card__icon_star {
+  background-image: url(../images/main/icons/star.png);
+}
+
+.features-card__icon_palette {
+  background-image: url(../images/main/icons/palette.png);
+}
+
+.features-card__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 2.7px;
+  margin: 40px 0px 20px 0px;
+}
+
+.features-card__text {
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.features-card__list {
+  padding-left: 38px;
+}
+
+.features-card__item {
+  list-style: disc;
+  text-align: left;
+  list-style-position: inside;
+  font-size: 18px;
+  padding: 8px 0;
+}
