@@ -1,16 +1,14 @@
 .contacts {
-  float: right;
-  text-align: right;
+  position: relative;
 }
 .contacts__tel-link {
+  display: block;
   font-weight: bold;
   font-size: 21px;
   color: #fff;
 }
 .contacts__schedule {
   cursor: pointer;
-  position: relative;
-  display: block;
   font-size: 14px;
   font-weight: bold;
   text-decoration: underline;
@@ -31,16 +29,16 @@
   text-align: center;
   box-shadow: 0 0 20px rgba(122, 122, 122, 0.5);
   right: -9999px;
-  top: 42px;
+  top: 68px;
   position: absolute;
 }
 .contacts__dropdown:before {
+  position: absolute;
   left: 0;
   right: 0;
-  top: -29px;
+  top: -25px;
   content: "";
-  height: 40px;
-  position: absolute;
+  height: 27px;
 }
 .contacts__dropdown-content {
   color: #221f1f;

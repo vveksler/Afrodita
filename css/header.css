@@ -5,7 +5,13 @@
   width: 100%;
   color: white;
 }
-.logo {
+
+.header__logo {
   float: left;
   margin-top: 14px;
+}
+
+.header__links {
+  float: right;
+  text-align: right;
 }

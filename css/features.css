@@ -13,3 +13,59 @@
   margin: 54px 0 38px 0;
 }
 
+.features__card {
+  vertical-align: top;
+  display: inline-block;
+  width: 33.33%;
+}
+
+.features__card-content {
+  text-align: center;
+}
+
+.features__card-icon {
+  margin: auto;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f89513;
+  width: 70px;
+  height: 70px;
+}
+
+.features__card-icon_flower {
+  background-image: url(../images/main/icons/flower.png);
+}
+
+.features__card-icon_star {
+  background-image: url(../images/main/icons/star.png);
+}
+
+.features__card-icon_palette {
+  background-image: url(../images/main/icons/palette.png);
+}
+
+.features__card-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 2.7px;
+  margin: 40px 0px 20px 0px;
+}
+
+.features__card-text {
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.features__card-list {
+  padding-left: 38px;
+}
+
+.features__card-item {
+  list-style: disc;
+  text-align: left;
+  list-style-position: inside;
+  font-size: 18px;
+  padding: 8px 0;
+}
