@@ -1,12 +1,14 @@
 .contacts {
   position: relative;
 }
+
 .contacts__tel-link {
   display: block;
   font-weight: bold;
   font-size: 21px;
   color: #fff;
 }
+
 .contacts__schedule {
   cursor: pointer;
   font-size: 14px;
@@ -16,22 +18,31 @@
   padding-top: 4px;
   transition: 0.3s;
 }
+
 .contacts__schedule:hover {
   color: #cdcdcd;
 }
+
 .contacts__schedule:hover .contacts__dropdown {
+  opacity: 1;
   right: 0;
 }
+
 .contacts__dropdown {
-  width: 80%;
-  padding: 10px;
+  position: absolute;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  width: 95%;
+  padding: 14px 0;
   line-height: 25px;
   text-align: center;
   box-shadow: 0 0 20px rgba(122, 122, 122, 0.5);
   right: -9999px;
+  opacity: 0;
   top: 68px;
-  position: absolute;
+  transition: opacity 1s;
 }
+
 .contacts__dropdown:before {
   position: absolute;
   left: 0;
@@ -40,13 +51,16 @@
   content: "";
   height: 27px;
 }
+
 .contacts__dropdown-content {
   color: #221f1f;
   font-weight: 300;
 }
+
 .contacts__dropdown-text {
   display: inline-block;
 }
+
 .contacts__dropdown-triangle {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;

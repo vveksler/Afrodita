@@ -34,15 +34,15 @@
 }
 
 .features__card-icon_flower {
-  background-image: url(../images/main/icons/flower.png);
+  background-image: url(../../images/main/icons/flower.png);
 }
 
 .features__card-icon_star {
-  background-image: url(../images/main/icons/star.png);
+  background-image: url(../../images/main/icons/star.png);
 }
 
 .features__card-icon_palette {
-  background-image: url(../images/main/icons/palette.png);
+  background-image: url(../../images/main/icons/palette.png);
 }
 
 .features__card-title {
