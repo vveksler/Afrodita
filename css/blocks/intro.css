@@ -1,7 +1,7 @@
 .wrapper-intro {
   justify-content: center;
   height: 100%;
-  background: url("../images/intro/gym.jpg") no-repeat center center;
+  background: url("../../images/intro/gym.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
   overflow: hidden;

@@ -47,11 +47,13 @@
 .pagination__item {
   display: inline-block;
 }
+
 .pagination__item_active .pagination__link {
   color: #f89513;
   background-color: #131415;
   border-radius: 3px;
 }
+
 .pagination__link {
   width: 25px;
   height: 25px;
@@ -61,6 +63,7 @@
   color: #221f1f;
   transition: 0.3s;
 }
+
 .pagination__link:hover {
   color: #f89513;
   border-radius: 3px;

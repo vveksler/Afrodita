@@ -1,5 +1,5 @@
 @import url("./layout/normalize.css");
-@import url("./layout/general.css");
+@import url("./layout/base.css");
 
 @import url("./blocks/intro.css");
 @import url("./blocks/header.css");
