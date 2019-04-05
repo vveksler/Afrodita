@@ -1,5 +1,6 @@
 .contacts {
   position: relative;
+  overflow: hidden;
 }
 
 .contacts__tel-link {
